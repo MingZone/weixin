@@ -24,6 +24,10 @@
 
 
 
+-(void)login
+{
+    NSLog(@"login");
+}
 
 
 
