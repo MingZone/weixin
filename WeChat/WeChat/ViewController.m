@@ -18,6 +18,13 @@
     [super viewDidLoad];
 
     NSLog(@"打印一句话");
+    
+    NSLog(@"继续开发新功能");
 }
+
+
+
+
+
 
 @end
