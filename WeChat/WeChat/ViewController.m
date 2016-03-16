@@ -20,4 +20,11 @@
     NSLog(@"打印一句话");
 }
 
+
+
+-(void)login
+{
+    NSLog(@"login");
+}
+
 @end
