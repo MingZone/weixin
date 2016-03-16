@@ -13,6 +13,7 @@
 		3A9F38531C9909960089ED4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F38511C9909960089ED4D /* Main.storyboard */; };
 		3A9F38551C9909960089ED4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F38541C9909960089ED4D /* Assets.xcassets */; };
 		3A9F38581C9909960089ED4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F38561C9909960089ED4D /* LaunchScreen.storyboard */; };
+		3A9F38601C990B360089ED4D /* FF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F385F1C990B360089ED4D /* FF.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A9F38541C9909960089ED4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9F38571C9909960089ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9F38591C9909960089ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9F385F1C990B360089ED4D /* FF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FF.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9F38601C990B360089ED4D /* FF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		3A9F38471C9909960089ED4D /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
+				3A9F385F1C990B360089ED4D /* FF.framework */,
 				3A9F384B1C9909960089ED4D /* AppDelegate.h */,
 				3A9F384C1C9909960089ED4D /* AppDelegate.m */,
 				3A9F384E1C9909960089ED4D /* ViewController.h */,
@@ -261,6 +265,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat",
+				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -273,6 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat",
+				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
